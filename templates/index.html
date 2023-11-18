@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Invoice Genie</title>
+</head>
+<body>
+
+    <form method="post" id="clientForm" action="/add_client">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="client_fname" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="client_lname" required></td>
+            </tr>
+            <tr>
+                <td>Rate:</td>
+                <td><input type="number" name="client_rate" required></td>
+            </tr>
+            <tr>
+                <td>Hours:</td>
+                <td><input type="number" name="client_hours" required></td>
+            </tr>
+
+            <tr>
+                <td>Paid</td>
+                <td><input type="number" name="client_payment" required></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+
+
+    
+    
+</body>
+</html>
